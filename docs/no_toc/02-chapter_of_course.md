@@ -1,4 +1,4 @@
-
+ 
 # A new chapter
 
 If you haven't yet read the getting started Wiki pages; [start there](https://www.ottrproject.org/getting_started.html).
@@ -298,7 +298,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2023-11-21                  
+##  date     2023-12-27                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source                            
