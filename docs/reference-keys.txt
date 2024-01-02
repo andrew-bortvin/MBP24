@@ -1,6 +1,5 @@
 available-course-formats
 python-guide
-python
 data-types
 variables
 math
