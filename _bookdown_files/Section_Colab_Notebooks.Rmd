@@ -1,7 +1,7 @@
 ```{r, include = FALSE}
 ottrpal::set_knitr_image_path()
 ``` 
- 
+  
 # Class Notebooks and Slides
 
 This page will host links to all slides and Google Colab notebooks used in class.
