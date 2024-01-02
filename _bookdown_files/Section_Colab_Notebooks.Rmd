@@ -8,4 +8,4 @@ This page will host links to all slides and Google Colab notebooks used in class
 
 **Day 1: Exponential and Logistic Growth** <br>
 Class Slides:  <br>
-Colab Notebooks: 
+Colab Notebooks: [Blank Notebook](https://colab.research.google.com/drive/1iDb7XgrZgGVz_KnpmeF6TsploXfDnCy-?usp=sharing)
