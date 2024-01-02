@@ -1,0 +1,7 @@
+0.1-Available-course-formats.md
+1-Python-Guide.md
+2-Colab-Notebooks.md
+3-Class-Slides.md
+4-References.md
+About-this-Course.md
+About-the-Authors.md
