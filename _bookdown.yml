@@ -3,6 +3,8 @@ chapter_name: "Chapter "
 repo: https://github.com/jhudsl/OTTR_Template/
 rmd_files: ["index.Rmd",
             "_bookdown_files/01_Python_Chapters.Rmd",
+            " _bookdown_files/02_Colab_Notebooks.Rmd",
+            "_bookdown_files/03_Class_Slides.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
