@@ -2,8 +2,6 @@
 ottrpal::set_knitr_image_path()
 ```
 
-# Python 
-
 ## Data Types
 
 **Integers** are whole numbers. For example:
