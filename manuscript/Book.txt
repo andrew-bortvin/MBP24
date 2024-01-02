@@ -1,0 +1,11 @@
+0.1-Available-course-formats.md
+0.2-Data-Types.md
+0.3-Variables.md
+0.4-Math.md
+0.5-Lists.md
+0.6-For-Loops.md
+0.7-Modules.md
+0.8-Plotting-with-matplotlib.md
+1-References.md
+About-this-Course.md
+About-the-Authors.md
