@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>2.4 Lists | Course Name</title>
+  <title>2.5 For Loops | Course Name</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="2.4 Lists | Course Name" />
+  <meta property="og:title" content="2.5 For Loops | Course Name" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2.4 Lists | Course Name" />
+  <meta name="twitter:title" content="2.5 For Loops | Course Name" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="math.html"/>
-<link rel="next" href="for-loops.html"/>
+<link rel="prev" href="lists.html"/>
+<link rel="next" href="modules.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -194,69 +194,62 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="lists" class="section level2" number="2.4">
-<h2><span class="header-section-number">2.4</span> Lists</h2>
-<p>Lists allow us to store multiple objects together.</p>
-<p>A list is a sequential group of variables, denoted in Python by square brackets <code>[]</code>, with individual entries separated by commas. A few of the neat properties of lists are:</p>
-<ul>
-<li><strong>Ordered</strong>: The list <code>[1, 5, 3, 7]</code> will always store those numbers in the same order.</li>
-<li><strong>Mixed data types</strong>: <code>["mercury", 13, 5.3, False]</code> is a valid list which contains every data type we’ve seen so far.</li>
-<li><strong>Can contain other lists</strong>: <code>[[2, 3], "sulfur", 12, 18]</code></li>
-<li><strong>Can contain repeat values</strong>: <code>["tomato", "tomato", "tomato", "sulfur"]</code></li>
-</ul>
-<div id="indexing" class="section level3" number="2.4.1">
-<h3><span class="header-section-number">2.4.1</span> Indexing</h3>
-<p>What if we want to extract a specific value from a list? We can use <strong>indexing</strong>. To index in Python, we use the following syntax:</p>
-<pre><code>variable_name[index]</code></pre>
-<p>where <code>index</code> is the number of the item we wish to extract.</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="lists.html#cb15-1" aria-hidden="true" tabindex="-1"></a>alchemists <span class="op">=</span> [<span class="st">&quot;Zosimos&quot;</span>, <span class="st">&quot;Oresme&quot;</span>, <span class="st">&quot;Flamel&quot;</span>, <span class="st">&quot;pseudo-Aristotle&quot;</span>]</span>
-<span id="cb15-2"><a href="lists.html#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(alchemists[<span class="dv">1</span>])</span></code></pre></div>
-<pre><code>## Oresme</code></pre>
-<p>Notice that when we printed the item at position 1, we printed out the <em>second</em> entry in <code>alchemists</code>. This is because in Python, <strong>indexing begins at 0</strong>. To print out the first entry, we would use <code>alchemists[0]</code>.</p>
-<p>A couple interesting things we can do with indexing:</p>
-<ul>
-<li>To print multiple consecutive items, we can provide two numbers separated by a colon <code>:</code>.</li>
-</ul>
-<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="lists.html#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(alchemists[<span class="dv">0</span>:<span class="dv">2</span>])</span></code></pre></div>
-<pre><code>## [&#39;Zosimos&#39;, &#39;Oresme&#39;]</code></pre>
-<p>Note that the first number is <strong>inclusive</strong> and the second number is <strong>exclusive</strong>: we include the item at position 0 (<code>'Zosimos'</code>), but not the item at position 2 (<code>'Flamel'</code>).</p>
-<ul>
-<li>We can index in reverse. To index from the end of a list, we use negative numbers.</li>
-</ul>
-<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="lists.html#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(alchemists[<span class="op">-</span><span class="dv">1</span>])</span></code></pre></div>
-<pre><code>## pseudo-Aristotle</code></pre>
-<hr />
-<details>
-<summary>
-Nested lists
-</summary>
-<p>How would we extract the number <code>3</code> from the list below?</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="lists.html#cb21-1" aria-hidden="true" tabindex="-1"></a>my_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, [<span class="dv">3</span>, <span class="dv">4</span>], <span class="dv">5</span>]</span></code></pre></div>
-<p>First, we extract the <code>[3, 4]</code> list. This is the third item of the outer list, so it is at position 2 (remember, indexing in Python starts at 0). So we can access the interior list with <code>my_list[2]</code>:</p>
-<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="lists.html#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_list[<span class="dv">2</span>])</span></code></pre></div>
-<pre><code>## [3, 4]</code></pre>
-<p>Within the interior list, <code>3</code> is the first item, so it is at position 0. It can be accessed with the syntax <code>my_list[2][0]</code>:</p>
-<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="lists.html#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_list[<span class="dv">2</span>][<span class="dv">0</span>])</span></code></pre></div>
-<pre><code>## 3</code></pre>
-</details>
-<hr />
-<div id="indexing-strings" class="section level4" number="2.4.1.1">
-<h4><span class="header-section-number">2.4.1.1</span> Indexing Strings</h4>
-<p>We can also apply indexing to extract substrings from within a string. This is done identically to how we index a list:</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="lists.html#cb26-1" aria-hidden="true" tabindex="-1"></a>creature <span class="op">=</span> <span class="st">&#39;stingray&#39;</span></span>
-<span id="cb26-2"><a href="lists.html#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(creature[<span class="dv">0</span>:<span class="dv">5</span>])</span></code></pre></div>
-<pre><code>## sting</code></pre>
-</div>
-</div>
-<div id="adding-to-lists" class="section level3" number="2.4.2">
-<h3><span class="header-section-number">2.4.2</span> Adding to lists</h3>
-<p>Finally, we can add entries to the end of a list. We do this with the <code>append()</code> method, which is used with the following syntax:</p>
-<pre><code>list_name.append(item)</code></pre>
+<div id="for-loops" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> For Loops</h2>
+<p>In Python, we will often want to perform an action more than once. For example, if we have a list, we might want to do the same operatation on every item within the list.</p>
+<p>One way to do this is to use a <strong>for loop</strong>, which is structured like this:</p>
+<pre><code>for &lt;temporary_variable&gt; in &lt;thing to loop through&gt;:
+    {do something}</code></pre>
 <p>For example:</p>
-<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="lists.html#cb29-1" aria-hidden="true" tabindex="-1"></a>florilegium <span class="op">=</span> [<span class="st">&#39;marigold&#39;</span>, <span class="st">&#39;thistle&#39;</span>, <span class="st">&#39;wormwood&#39;</span>]</span>
-<span id="cb29-2"><a href="lists.html#cb29-2" aria-hidden="true" tabindex="-1"></a>florilegium.append(<span class="st">&#39;tansy&#39;</span>)</span>
-<span id="cb29-3"><a href="lists.html#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(florilegium)</span></code></pre></div>
-<pre><code>## [&#39;marigold&#39;, &#39;thistle&#39;, &#39;wormwood&#39;, &#39;tansy&#39;]</code></pre>
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="for-loops.html#cb32-1" aria-hidden="true" tabindex="-1"></a>stations <span class="op">=</span> [<span class="st">&quot;Oddity&quot;</span>, <span class="st">&quot;Londres&quot;</span>, <span class="st">&quot;Cherry&quot;</span>, <span class="st">&quot;Swedish&quot;</span>]</span>
+<span id="cb32-2"><a href="for-loops.html#cb32-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="for-loops.html#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> stations:</span>
+<span id="cb32-4"><a href="for-loops.html#cb32-4" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(i)</span></code></pre></div>
+<pre><code>## Oddity
+## Londres
+## Cherry
+## Swedish</code></pre>
+<div id="for-loop-walkthrough" class="section level3" number="2.5.1">
+<h3><span class="header-section-number">2.5.1</span> For loop walkthrough</h3>
+<p>Here is how the loop works:</p>
+<pre><code>for i in stations:</code></pre>
+<p>In this line, we:</p>
+<ul>
+<li>Define the temporary variable <code>i</code>. The name of this variable is arbitrary.</li>
+<li>We say that we are looping through <code>stations</code>.</li>
+</ul>
+<p>In the first iteration of the for loop, <code>i</code> takes on the value of the first item in <code>stations</code> (<code>"Oddity"</code>). Now we perform all of the indented code, which here is just a <code>print()</code> statement.</p>
+<p>In the second iteration of the for loop, we set the value of <code>i</code> to the second entry in <code>stations</code> (<code>"Londres"</code>). We execute all of the indented code, printing out <code>"Londres"</code>.</p>
+<p>We continue on doing this until there is nothing left in <code>stations</code>.</p>
+<p>In this example, there was a single line in the body of the loop, but a for loop can be arbitrarily long. Here is a longer example:</p>
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="for-loops.html#cb35-1" aria-hidden="true" tabindex="-1"></a>my_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">2</span>]</span>
+<span id="cb35-2"><a href="for-loops.html#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="for-loops.html#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> my_list:</span>
+<span id="cb35-4"><a href="for-loops.html#cb35-4" aria-hidden="true" tabindex="-1"></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">3</span></span>
+<span id="cb35-5"><a href="for-loops.html#cb35-5" aria-hidden="true" tabindex="-1"></a>  i <span class="op">=</span> i <span class="op">**</span> <span class="dv">2</span></span>
+<span id="cb35-6"><a href="for-loops.html#cb35-6" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(i)</span></code></pre></div>
+<pre><code>## 16
+## 49
+## 81
+## 144
+## 169
+## 25</code></pre>
+</div>
+<div id="repeating-an-action-n-times" class="section level3" number="2.5.2">
+<h3><span class="header-section-number">2.5.2</span> Repeating an action <code>n</code> times</h3>
+<p>We can also use a for loop to perform an action a set number of times, even when we don’t have a list to loop through. To do so, we can use the <code>range()</code> function. We’ll use this function a ton throughout the course.</p>
+<p><code>range(&lt;n&gt;)</code>, where <code>n</code> is a single integer, generates a sequence of numbers from <code>0</code> to <code>n</code> (not including <code>n</code> itself). So to run a function 3 times, we would provide the for loop with <code>range(3)</code> (which generates the list <code>[0, 1, 2]</code>).</p>
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="for-loops.html#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">3</span>):</span>
+<span id="cb37-2"><a href="for-loops.html#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(i)</span></code></pre></div>
+<pre><code>## 0
+## 1
+## 2</code></pre>
+<p>So far, the body of our for loop has always referenced the temporary variable <code>i</code>. We can also use a for loop to run a block of code repeatedly without actually manipulating <code>i</code>:</p>
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="for-loops.html#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">3</span>):</span>
+<span id="cb39-2"><a href="for-loops.html#cb39-2" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;All work and no play&quot;</span>)</span></code></pre></div>
+<pre><code>## All work and no play
+## All work and no play
+## All work and no play</code></pre>
 
 </div>
 </div>
@@ -273,8 +266,8 @@ Nested lists
           </div>
         </div>
       </div>
-<a href="math.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="for-loops.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="lists.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="modules.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
