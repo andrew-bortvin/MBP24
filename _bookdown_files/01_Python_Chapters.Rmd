@@ -4,5 +4,5 @@ ottrpal::set_knitr_image_path()
  
 # Python Guide
 
-lorem ipsum
+lorem ipsum 
  
