@@ -2,7 +2,10 @@ url	chapt_title	img_path
 https://andrew-bortvin.github.io/MBP24/no_toc/index.html	About this Course	resources/chapt_screen_images/index.png
 https://andrew-bortvin.github.io/MBP24/no_toc/available-course-formats.html	0.1 Available course formats	resources/chapt_screen_images/available-course-formats.png
 https://andrew-bortvin.github.io/MBP24/no_toc/python-guide.html	1 Python Guide	resources/chapt_screen_images/python-guide.png
-https://andrew-bortvin.github.io/MBP24/no_toc/colab-notebooks.html	2 Colab Notebooks	resources/chapt_screen_images/colab-notebooks.png
-https://andrew-bortvin.github.io/MBP24/no_toc/class-slides.html	3 Class Slides	resources/chapt_screen_images/class-slides.png
+https://andrew-bortvin.github.io/MBP24/no_toc/python.html	2 Python	resources/chapt_screen_images/python.png
+https://andrew-bortvin.github.io/MBP24/no_toc/data-types.html	2.1 Data Types	resources/chapt_screen_images/data-types.png
+https://andrew-bortvin.github.io/MBP24/no_toc/variables.html	2.2 Variables	resources/chapt_screen_images/variables.png
+https://andrew-bortvin.github.io/MBP24/no_toc/colab-notebooks.html	3 Colab Notebooks	resources/chapt_screen_images/colab-notebooks.png
+https://andrew-bortvin.github.io/MBP24/no_toc/class-slides.html	4 Class Slides	resources/chapt_screen_images/class-slides.png
 https://andrew-bortvin.github.io/MBP24/no_toc/about-the-authors.html	About the Authors	resources/chapt_screen_images/about-the-authors.png
-https://andrew-bortvin.github.io/MBP24/no_toc/references.html	4 References	resources/chapt_screen_images/references.png
+https://andrew-bortvin.github.io/MBP24/no_toc/references.html	5 References	resources/chapt_screen_images/references.png
