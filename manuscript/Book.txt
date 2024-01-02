@@ -1,0 +1,14 @@
+0.1-Available-course-formats.md
+1-Syllabus.md
+2-Python-Guide.md
+2.1-Data-Types.md
+2.2-Variables.md
+2.3-Math.md
+2.4-Lists.md
+2.5-For-Loops.md
+2.6-Modules.md
+2.7-Plotting-with-matplotlib.md
+3-Class-Notebooks-and-Slides.md
+4-References.md
+About-this-Course.md
+About-the-Authors.md
