@@ -10,11 +10,11 @@ Andrew Bortvin
 Dylan Taylor
 
 
-<span style="font-size:20em;">**Course Description**<span>
+<span style="font-size:5em;">**Course Description**<span>
 
 Population biologists study the dynamics of how populations behave and change, but these processes are often too complex for direct observation. Computational tools are therefore essential to the study of biological populations, as they allow for study across time scales far beyond what can be observed. Students will be introduced to computational biology, using the fundamentals of coding in the Python programming language. We will apply this code in developing simulations of biological populations, including invasive species and cancerous tumors. Students will enact and observe the effects of various parameters (e.g., mutation, environmental pressure, behavior, random chance) on their populations. We will also explore how these models can be applied in other fields, and how biology makes use of models from fields including linguistics and economics. Upon completing the course, students will be prepared to independently continue learning more advanced programming concepts. Prior programming experience is not required. Students from all departments and at all levels (including first-year undergraduates) are welcome.
 
-<span style="font-size:20em;">**Class Structure**<span>
+<span style="font-size:5em;">**Class Structure**<span>
 
 **Class Organization** <br>
 Each class will be divided between lectures covering biological principles, live coding where we teach programming in Python, and in-class completion of assignments. For live coding, we will offer two sections, one of which focuses more on coding fundamentals and syntax, and one which moves at a faster pace and covers more biological implementation for students comfortable with programming.
@@ -28,7 +28,7 @@ For this course, we will be using Google Colab both for live coding during class
 
 You are welcome to work together in small groups, and collaboration is encouraged. Likewise, we encourage you to seek answers online when encountering. However, please refrain from just copying someone else's code – you should understand and be able to explain every line of code in your scripts. 
 
-<span style="font-size:20em;">**Schedule**<span>
+<span style="font-size:5em;">**Schedule**<span>
 
 | Class Number | Date       | Topics Covered  |
 | :---        |    :----:   |          ---: |
@@ -39,7 +39,7 @@ You are welcome to work together in small groups, and collaboration is encourage
 | 5           | 1/16/24     | Independent Work: Develop Your Own Models  |
 | 6           | 1/18/24     | Independent Work: Develop Your Own Models (Part II); Models from Other Fields |
 
-<span style="font-size:20em;">**Grading**<span>
+<span style="font-size:5em;">**Grading**<span>
 
 This course will be graded Satisfactory/Unsatisfactory, and individual assignments will be graded on reasonable completion (rather than accuracy of results). In each assignment, we will specify items to include in your submission; the assignment score will be the fraction of items completed. To achieve a Satisfactory, you must have an average of 70% completion across the assignments.  
 
