@@ -5,3 +5,4 @@ ottrpal::set_knitr_image_path()
 # Class Slides 
 
 lorem ipsum
+ 
