@@ -7,7 +7,7 @@ rmd_files: ["index.Rmd",
             "_bookdown_files/03_Class_Slides.Rmd",
             "About.Rmd",
             "References.Rmd"]
-new_session: yes
+new_session: no
 #delete_merged_file: true
 language:
   ui:
