@@ -1,5 +1,4 @@
 available-course-formats
-python-guide
 data-types
 variables
 math
@@ -22,6 +21,4 @@ multiple-sets-of-data
 labels-and-legends
 figure-aesthetics
 histograms
-colab-notebooks
-class-slides
 references
