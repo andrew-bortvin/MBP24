@@ -10,9 +10,7 @@ rmd_files: ["index.Rmd",
             "_bookdown_files/for_loops.Rmd",
             "_bookdown_files/modules.Rmd",
             "_bookdown_files/plotting_with_matplotlib.Rmd",
-            "_bookdown_files/Section_Colab_Notebooks.Rmd",
-            "About.Rmd",
-            "References.Rmd"]
+            "_bookdown_files/Section_Colab_Notebooks.Rmd"]
 new_session: no
 #delete_merged_file: true
 language:
