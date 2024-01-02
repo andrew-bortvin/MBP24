@@ -2,6 +2,6 @@
 ottrpal::set_knitr_image_path()
 ``` 
 
-# Python Guide
+# Class Slides 
 
 lorem ipsum
