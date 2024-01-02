@@ -23,4 +23,3 @@ labels-and-legends
 figure-aesthetics
 histograms
 class-notebooks-and-slides
-references
