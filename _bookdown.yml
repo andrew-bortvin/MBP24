@@ -2,7 +2,7 @@ book_filename: "Course_Name"
 chapter_name: "Chapter "
 repo: https://github.com/jhudsl/OTTR_Template/
 rmd_files: ["index.Rmd",
-            "_bookdown_files/01_Python_Chapters.Rmd",
+            "_bookdown_files/_Section_Python_Chapters.Rmd",
             "_bookdown_files/variables.Rmd",
             "_bookdown_files/math.Rmd",
             "_bookdown_files/lists.Rmd",
