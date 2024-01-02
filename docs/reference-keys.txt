@@ -10,6 +10,12 @@ lists
 indexing
 indexing-strings
 adding-to-lists
+for-loops
+for-loop-walkthrough
+repeating-an-action-n-times
+modules
+module-functions
+abbreviating-module-names
 plotting-with-matplotlib
 line-and-scatter-plots---walkthrough
 points-and-lines
