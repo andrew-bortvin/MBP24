@@ -12,5 +12,5 @@ Colab Notebooks: [Blank Notebook](https://colab.research.google.com/drive/1iDb7X
 [Completed Notebook](https://colab.research.google.com/drive/1SP-r5IQWhhPCEQDzELge5zx04fnGXRrD?usp=sharing)
 
 **Day 2: Two Population Systems - Competition and Predator-Prey**<br>
-Class Slides: <br>
+Class Slides: [Class 2 Slides](https://docs.google.com/presentation/d/1VF95QNFUt1NIHs5H9xTVgD3SiSI9KJ1GeP9aY8XiZBY/edit?usp=sharing)<br>
 Colab Notebooks: [Blank Notebook](https://colab.research.google.com/drive/1VBR8Ue10Hx-Lsa0guRRzoXo04lJ1ct-4?usp=sharing)
