@@ -17,5 +17,5 @@ Colab Notebooks: [Blank Notebook](https://colab.research.google.com/drive/1VBR8U
 [Completed Notebook](https://colab.research.google.com/drive/1jKoHl3jMkarf5J2GdAlkjgO68T0SFzhL?usp=sharing)
 
 **Day 3: Population Genetics - Wright-Fisher**<br>
-Class Slides:  <br>
+Class Slides:  [Class 3 Slides](https://docs.google.com/presentation/d/1VLgYfsKf38t3BYyX_L3nudX0CuxpGcQtnL64ISYJ7uk/edit?usp=sharing)<br>
 Colab Notebooks: [Blank Notebook](https://colab.research.google.com/drive/1KO9YcXefE26o0kqGmVxaHplOIuDqJR-e?usp=sharing)
