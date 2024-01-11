@@ -24,3 +24,4 @@ Colab Notebooks: [Blank Notebook](https://colab.research.google.com/drive/1KO9Yc
 **Day 4: Agent-Based Modeling**<br>
 Class Slides: [Class 4 Slides](https://docs.google.com/presentation/d/1FsYsXFUJBEx1qcdTmRnihc_sfAowq2UXvOlilxuClmk/edit?usp=sharing) <br>
 Colab Notebooks: [Blank Notebook](https://colab.research.google.com/drive/119QN7ipFY1WJQZrY22jiFS846Shh2zLa?usp=sharing)
+[In-class Code](https://colab.research.google.com/drive/1yAZlqXS3q_87SDqlGQ357dIJqdkHs0Ja?usp=sharing)
