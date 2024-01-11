@@ -19,3 +19,7 @@ Colab Notebooks: [Blank Notebook](https://colab.research.google.com/drive/1VBR8U
 **Day 3: Population Genetics - Wright-Fisher**<br>
 Class Slides:  [Class 3 Slides](https://docs.google.com/presentation/d/1VLgYfsKf38t3BYyX_L3nudX0CuxpGcQtnL64ISYJ7uk/edit?usp=sharing)<br>
 Colab Notebooks: [Blank Notebook](https://colab.research.google.com/drive/1KO9YcXefE26o0kqGmVxaHplOIuDqJR-e?usp=sharing)
+[Completed Notebook](https://colab.research.google.com/drive/1jtd-Ihx0kH4aTjJexKnHzB_4AmJTaRIJ?usp=sharing)
+
+**Day 4: Agent-Based Modeling**<br>
+Colab Notebooks: [Blank Notebook](https://colab.research.google.com/drive/119QN7ipFY1WJQZrY22jiFS846Shh2zLa?usp=sharing)
